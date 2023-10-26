@@ -1,5 +1,5 @@
 # About ReactFacts
-This is my first project using React. It's simple and static website made from Scrimba. You visit the website through this link: [ReactFacts](https://whimsical-chaja-84229c.netlify.app/)
+This is my first project using React. It's simple and static website made from Scrimba. You visit the website through this link: [ReactFacts](https://adrienne-react-facts.netlify.app/)
 
 ## Quick Start
 
