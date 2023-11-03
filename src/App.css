@@ -10,6 +10,7 @@ body {
   margin: 0;
   font-family: Inter, sans-serif;
   height: 100vh;
+  background-color: #282D35;
 }
 
 nav {
@@ -69,4 +70,10 @@ main {
 .main--facts > li::marker {
   font-size: 1.4rem;
   color: #61DAFB;
+}
+
+.copy-right-sec{
+	padding: 1.8rem;
+    color: #fff;
+    text-align: center;
 }
