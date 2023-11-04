@@ -1,7 +1,15 @@
-## About ReactFacts
-This is my first project using React. It's simple and static website made from Scrimba. You visit the website through this link: [ReactFacts](https://whimsical-chaja-84229c.netlify.app/)
+# About ReactFacts
+This is my first project using React. It's simple and static website made from Scrimba. You can visit the website through this link: [ReactFacts](https://whimsical-chaja-84229c.netlify.app/)
 
-# React + Vite
+## Quick Start
+
+```
+cd react-facts
+npm install
+npm run dev
+```
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
