@@ -1,12 +1,23 @@
 import React from "react"
 import reactLogo from '../assets/react.svg'
 
-export default function Header() {
+export default function Header(props) {
     return (
-        <nav>
+        <nav className={props.darkMode ? "dark" : ""}>
             <img src={reactLogo} className="nav--icon" />
             <h3 className="nav--logo_text">ReactFacts</h3>
-            <h4 className="nav--title">React Course</h4>
+            <div 
+                className="toggler" 
+            >
+                <p className="toggler--light">Light</p>
+                <div 
+                    className="toggler--slider"
+                    onClick={props.toggleDarkMode}
+                >
+                    <div className="toggler--slider--circle"></div>
+                </div>
+                <p className="toggler--dark">Dark</p>
+            </div>
         </nav>
     )
 }

@@ -1,11 +1,9 @@
 import React from "react";
 
-function Footer() {
+function Footer(props) {
     return (
-        <section>
-			<div class="copy-right-sec"><i class="fa-solid fa-copyright"></i>  
-				<small>Copyright © 2023, Adrienne Carlo. All Rights Reserved.</small>
-			</div>
+        <section className={props.darkMode ? "dark" : ""}>
+				<small>Developed by Adrienne Carlo, 2023.</small>
 		</section>
     )
 }
